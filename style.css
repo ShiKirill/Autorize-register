@@ -1,0 +1,68 @@
+body {
+ margin: 0;
+ font-size: 16px;
+}
+
+.main_block{
+ margin: 0 auto;
+ width: 50%;
+}
+
+.greeting{
+ text-align: center;
+}
+
+.sign_blocks{
+ display: flex;
+ height: 2.5rem;
+ justify-content: center;
+ margin-bottom: 1.5rem;
+}
+
+.sign_blocks button {
+ font-size: 1.05rem;
+}
+
+.sign_up {
+ margin-right: 0.5rem;
+}
+
+.sign_up,
+.sign_in {
+ cursor: pointer;
+}
+
+.user{
+ font-size: 1.2rem;
+ padding-right: 1.875px;
+ position: relative;
+ padding-bottom: 1rem;
+}
+
+.user-buttons {
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+
+.user-buttons button {
+ width: 20px;
+ height: 20px;
+ float: left;
+ background-color: transparent;
+ background-position: center;
+ background-repeat: no-repeat;
+ position: relative;
+ border: 0;
+ box-shadow: none;
+ outline: none;
+ cursor: pointer;
+
+ -webkit-appearance: none;
+ -moz-appearance: none;
+}
+
+.user-remove {
+ background-image: url("trash.png");
+ background-size: contain;
+}
